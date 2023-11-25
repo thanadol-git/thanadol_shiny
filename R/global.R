@@ -195,7 +195,7 @@ body <-dashboardBody(
                 and differentiate between genes that have a strong genetic 
                 linkage based on the measured protein level. After completing the 
                 optional Bonus Exercise, you will be able to implement several 
-                tools on the database. In which, you can apply with your own research or study"),
+                tools on the database. In which, you can apply with your own research or study."),
               box(
                 width = 12,
                 title = "Introduction",
@@ -219,7 +219,9 @@ body <-dashboardBody(
                 "You will analyze a dataset combined of whole-genome sequencing, 
                 multiplex plasma protein profiling and clinical parameters. 
                 The dataset is artificial in the sense that we have masked and 
-                randomized parameters from the original dataset to not reveal any personal data."
+                randomized parameters from the original dataset to not reveal any personal data.
+                You wil be minimally required to do some caluclation. Coding is not required 
+                to finish the whole exercise."
               ),
               box(width = 12,
                   em("Note. We cannot share or publish any individual data. 
@@ -245,9 +247,12 @@ body <-dashboardBody(
                        tags$iframe(style = "height:800px; width:100%;scrolling=yes", src = "eaaz0274.full.pdf")
                        
                        ),
-              tabPanel(title = "Bonus exercise",
-                       tags$iframe(style = "height:800px; width:100%;scrolling=yes", src = "Bonus.manual.pdf")
+              tabPanel(title = "Climate change",
+                       h5("Please carefully review this paper"),
+                       tags$iframe(style = "height:800px; width:100%;scrolling=yes", src = "s41558-022-01426-1-2.pdf")
+                       
                        )
+
             )
     ), 
     
@@ -274,7 +279,7 @@ body <-dashboardBody(
               em("Note. Please carefully read these papers before the computer lab."),
               tabsetPanel(type = "tabs",
                           tabPanel("Wellness",
-                                   tags$iframe(style = "height:800px; width:100%;scrolling=yes", src = "msb.20145728.pdf")
+                                   tags$iframe(style = "height:800px; width:100%;scrolling=yes", src = "s13073-020-00755-0.pdf")
                           ),
                           tabPanel("Plasma proteome",
                                    tags$iframe(style = "height:800px; width:100%;scrolling=yes", src = "msb.20145728.pdf")

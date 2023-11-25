@@ -260,12 +260,7 @@ body <-dashboardBody(
             box(width =12, 
                 title = "Lab instructions",
                 "All questions and exercises can be solved using the online R Shiny toolbar developed for this lab exercise, but you will have to work with the data manually. You can either use simple spreadsheet handling softwares (such as Microsoft Excel or similar), or use R, Python or Matlab combined with simple operations.",
-                tags$br(), tags$br(),
-                "Please answer the following questions (Q1-Q8) in the worksheet to complete the lab exercise. These should be handed in through Canvas.
-                All data needed to complete this exercise can be viewed in the RShiny app,",
-                tags$a(href="thanadol.shinyapps.io/CB2030", "thanadol.shinyapps.io/CB2030"),
-                ", and also can be downloaded from",
-                tags$a(href="https://canvas.kth.se/courses/25851", "Canvas"), "."
+                tags$br(), tags$br()
                 ),
             # box(width = 12, 
             #     HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/Bkhtbj9tPMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>')

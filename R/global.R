@@ -190,16 +190,12 @@ body <-dashboardBody(
                 width = 12,
                 title = "Intended Learning Outcomes (ILOs)",
                 "After this lab, you will be able to describe the concept 
-                of single nucleotide polymorphisms and how they may affect protein 
+                of single nucleotide polymorphisms (SNP) and how they affect protein 
                 expression levels in eukaryotic systems. You will be able to identify 
                 and differentiate between genes that have a strong genetic 
-                linkage based on the measured protein level.  After completing the 
-                optional Bonus Exercise, you will be able to describe conceptual 
-                differences when studying secreted vs non-secreted proteins and 
-                relate this to the challenges of today’s clinical diagnostic approaches, 
-                especially when measuring single protein biomarkers in large human 
-                populations."
-              ),
+                linkage based on the measured protein level. After completing the 
+                optional Bonus Exercise, you will be able to implement several 
+                tools on the database. In which, you can apply with your own research or study"),
               box(
                 width = 12,
                 title = "Introduction",

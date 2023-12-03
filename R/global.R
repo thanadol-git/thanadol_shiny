@@ -93,7 +93,7 @@ dashboard <- dashboardSidebar(
     menuItem("pQTLs", tabName = "pQTLs", icon = icon("filter")),
     menuItem("Visit", tabName = "visit", icon = icon("hourglass")),
     menuItem("FDA", tabName = "fda", icon = icon("capsules")), 
-    menuItem("Questions", tabName = "question", icon = icon("question")),
+    #menuItem("Questions", tabName = "question", icon = icon("question")),
     menuItem("HPA/Bonus", tabName = "HPA",icon = icon("spider")),
     menuItem("Contact", tabName = "contact", icon = icon("location-arrow"))
   ))

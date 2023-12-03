@@ -17,9 +17,8 @@ RUN apt-get update -qq \
 WORKDIR /srv/shiny-server/
 RUN Rscript -e 'install.packages(c("shiny","tidyverse", "ggplot2", "RColorBrewer", "ggbeeswarm", "qqman", "shinythemes", "shinydashboard", "plotly", "DT", "shinyWidgets", "dplyr", "ggsci"))'                    
 
-
 ## Download data from google drive
-ENV FILEID=14DL53LrM_Xp-76XwkZWbRcIBq9r3OH12
+ENV FILEID=19P-TnObOsSK02Z4soL6yNgruBq4p8adY
 ENV FILENAME tmp.zip
 
 

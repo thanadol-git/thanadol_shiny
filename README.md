@@ -22,6 +22,9 @@ where,
 
 Now, open a browser and navigate to `localhost:3838`.
 
+## Data 
+The script download the zip file from my personal ggdrive. In the zip file, it contains three folders; www, Exercise and Upload. www contains mostly pdf file that needs to be used within the app (mainly paper articles). Exercise is where the worksheet is stored. In 2023, we skipped hosting the file in the app but push it on canvas instead. Lastly, Upload is where the data used in the lab is stored. The data may looked a bit different that the origin article as it has been masked. it is also simplified to be loaded efficiently iwthin the app. 
+
 ## Contact
 
 This shiny app was built by [@thanadol-git](https://github.com/thanadol-git).
